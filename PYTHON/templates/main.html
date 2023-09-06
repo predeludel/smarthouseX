@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Главная</title>
+    <link type="image/x-icon" href="assets/img/favicon.ico" rel="shortcut icon">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Raleway:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Actor&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter&amp;display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/responsive-blog-card-slider.css">
+    <link rel="stylesheet" href="assets/css/Team-Horizontal-icons.css">
+    <link rel="stylesheet" href="assets/css/Team-Horizontal-images.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.4/socket.io.js"
+            integrity="sha512-aMGMvNYu8Ue4G+fHa359jcPb1u+ytAF+P2SCb+PxrjCdO3n3ZTxJ30zuH39rimUggmTwmh2u7wvQsDTHESnmfQ=="
+            crossorigin="anonymous"></script>
+</head>
+
+<body style="background: linear-gradient(84deg, rgba(215, 228, 242, 0.25) 19.02%, rgba(215, 228, 242, 0.25) 24.71%, rgba(213, 226, 241, 0.25) 30.4%, rgba(211, 224, 241, 0.25) 36.08%, rgba(208, 221, 240, 0.25) 41.77%, rgba(204, 217, 238, 0.25) 47.46%, rgba(200, 212, 237, 0.25) 53.14%, rgba(194, 205, 235, 0.25) 58.83%, rgba(188, 197, 233, 0.25) 64.52%, rgba(181, 187, 230, 0.25) 70.2%, rgba(173, 174, 227, 0.25) 75.89%, rgba(168, 164, 224, 0.25) 81.58%, rgba(166, 155, 221, 0.25) 87.26%, rgba(165, 144, 217, 0.25) 92.95%, rgba(166, 133, 213, 0.25) 98.64%, rgba(168, 122, 208, 0.25) 104.32%, rgba(173, 109, 203, 0.25) 110.01%);">
+<nav class="navbar navbar-light navbar-expand-md fixed-top d-xl-flex navbar-shrink py-3" id="mainNav"
+     style="background: #000000;">
+    <div class="container"><a class="navbar-brand d-flex align-items-center" href="/">
+        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16"
+             class="bi bi-house-fill" style="font-size: 40px;color: rgb(255,255,255);">
+            <path fill-rule="evenodd"
+                  d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"></path>
+            <path fill-rule="evenodd"
+                  d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"></path>
+        </svg>
+    </a>
+        <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span
+                class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse fs-5 d-xxl-flex" id="navcol-1" style="font-family: Inter, sans-serif;">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item"></li>
+                <li class="nav-item"><a class="nav-link"
+                                        style="font-family: 'Alegreya Sans SC', sans-serif;font-weight: bold;color: #fcfcfc;"
+                                        href="/security">Камеры</a></li>
+                <li class="nav-item"><a class="nav-link"
+                                        style="font-family: 'Alegreya Sans SC', sans-serif;color: #ffffff;font-weight: bold;"
+                                        href="/robot">Робот</a></li>
+            </ul>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -64 640 640" width="1em" height="1em" fill="currentColor"
+                 style="font-size: 34px;color: rgb(255,255,255);">
+                <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                <path d="M319.1 351.1c-35.35 0-64 28.66-64 64.01s28.66 64.01 64 64.01c35.34 0 64-28.66 64-64.01S355.3 351.1 319.1 351.1zM320 191.1c-70.25 0-137.9 25.6-190.5 72.03C116.3 275.7 115 295.9 126.7 309.2C138.5 322.4 158.7 323.7 171.9 312C212.8 275.9 265.4 256 320 256s107.3 19.88 148.1 56C474.2 317.4 481.8 320 489.3 320c8.844 0 17.66-3.656 24-10.81C525 295.9 523.8 275.7 510.5 264C457.9 217.6 390.3 191.1 320 191.1zM630.2 156.7C546.3 76.28 436.2 32 320 32S93.69 76.28 9.844 156.7c-12.75 12.25-13.16 32.5-.9375 45.25c12.22 12.78 32.47 13.12 45.25 .9375C125.1 133.1 220.4 96 320 96s193.1 37.97 265.8 106.9C592.1 208.8 600 211.8 608 211.8c8.406 0 16.81-3.281 23.09-9.844C643.3 189.2 642.9 168.1 630.2 156.7z"></path>
+            </svg>
+        </div>
+    </div>
+</nav>
+<section class="py-5 mt-5"></section>
+<div class="container py-1 py-xl-1" style="border-color: rgb(0,0,0);">
+    <h1 class="display-6 fw-bold text-center mb-4" data-aos="fade-down" data-aos-delay="50"
+        style="transform-origin: top;font-family: Inter, sans-serif;">Добро пожаловать в Ваш <span
+            style="color: rgb(173, 109, 203);">умный </span>дом!</h1>
+    <hr style="background: #000000;color: rgb(0,0,0);">
+    <section class="py-2">
+        <div class="card border-light border-1 d-flex justify-content-center p-4" data-bss-hover-animate="bounce"
+             style="background: -webkit-linear-gradient(90deg, #d7e4f2,#a7b0ec,#ad6dcb);background: linear-gradient(-9deg, #d7e4f2, #a7b0ec, #ad6dcb);border-bottom-left-radius: 40px;border-bottom-right-radius: 40px;border-top-right-radius: 40px;border-top-left-radius: 40px;">
+            <div class="card-body text-center">
+                <div>
+                    <h1 class="fw-bold" style="font-family: Raleway, sans-serif;"><span
+                            style="color: rgb(255, 255, 255);">Дверь открыта</span></h1>
+                    <p class="text-muted d-none d-xl-block" style="font-family: 'Alegreya Sans SC', sans-serif;">
+                        <strong><span style="color: rgb(45, 45, 45);">В доме люди</span></strong></p>
+                </div>
+                <button class="btn btn-primary text-center lock" type="button"
+                        style="border-top-left-radius: 10px;border-top-right-radius: 10px;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;background: rgb(0,0,0);">
+                    Закрыть дверь
+                </button>
+            </div>
+        </div>
+        <section></section>
+    </section>
+    <section class="py-2">
+        <section></section>
+    </section>
+</div>
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card border-light border-1 d-flex justify-content-center p-4" data-aos="fade-right"
+                     style="background: -webkit-linear-gradient(90deg, #d7e4f2,#a7b0ec,#ad6dcb);background: linear-gradient(-168deg, #d7e4f2, #a7b0ec 50%, #ad6dcb 100%);border-top-left-radius: 60px;border-top-right-radius: 60px;border-bottom-right-radius: 60px;border-bottom-left-radius: 60px;">
+                    <div class="card-body text-start" style="text-align: left;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"
+                             stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                             stroke-linejoin="round" class="icon icon-tabler icon-tabler-temperature-celsius text-start"
+                             style="font-size: 100px;color: rgb(255,255,255);">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <circle cx="6" cy="8" r="2"></circle>
+                            <path d="M20 9a3 3 0 0 0 -3 -3h-1a3 3 0 0 0 -3 3v6a3 3 0 0 0 3 3h1a3 3 0 0 0 3 -3"></path>
+                        </svg>
+                        <div>
+                            <h1 class="fw-bold text-start"
+                                style="font-family: 'Alegreya Sans SC', sans-serif;color: rgb(255,255,255);"><span
+                                    style="font-weight: normal !important;">Температура</span></h1>
+                            <h1 class="display-1 fw-bold text-start"
+                                style="font-family: 'Alegreya Sans SC', sans-serif;color: rgba(255,255,255,0.8);"><span
+                                    class="temperature"
+                                    style="color: rgba(0, 0, 0, 0.8);">45</span></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-light text-start border-1 d-flex justify-content-center p-4"
+                     data-aos="fade-left"
+                     style="background: -webkit-linear-gradient(90deg, #d7e4f2,#a7b0ec,#ad6dcb);background: linear-gradient(45deg, #d7e4f2, #a7b0ec, #ad6dcb);border-top-left-radius: 60px;border-top-right-radius: 60px;border-bottom-right-radius: 60px;border-bottom-left-radius: 60px;">
+                    <div class="card-body text-start">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
+                             viewBox="0 0 16 16" class="bi bi-clouds text-end d-xxl-flex"
+                             style="font-size: 100px;color: rgb(255,255,255);">
+                            <path d="M16 7.5a2.5 2.5 0 0 1-1.456 2.272 3.513 3.513 0 0 0-.65-.824 1.5 1.5 0 0 0-.789-2.896.5.5 0 0 1-.627-.421 3 3 0 0 0-5.22-1.625 5.587 5.587 0 0 0-1.276.088 4.002 4.002 0 0 1 7.392.91A2.5 2.5 0 0 1 16 7.5z"></path>
+                            <path d="M7 5a4.5 4.5 0 0 1 4.473 4h.027a2.5 2.5 0 0 1 0 5H3a3 3 0 0 1-.247-5.99A4.502 4.502 0 0 1 7 5zm3.5 4.5a3.5 3.5 0 0 0-6.89-.873.5.5 0 0 1-.51.375A2 2 0 1 0 3 13h8.5a1.5 1.5 0 1 0-.376-2.953.5.5 0 0 1-.624-.492V9.5z"></path>
+                        </svg>
+                        <div class="text-start">
+                            <h1 class="fw-bold text-start"
+                                style="font-family: 'Alegreya Sans SC', sans-serif;color: rgb(255,255,255);"><span
+                                    style="font-weight: normal !important;">Влажность</span></h1>
+                            <h1 class="display-1 fw-bold text-start"
+                                style="font-family: 'Alegreya Sans SC', sans-serif;color: rgba(255,255,255,0.8);"><span
+                                    style="color: rgba(0, 0, 0, 0.8);" class="humidity">56</span></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 mt-4">
+                <h1 class="display-6 fw-bold text-center mb-4"
+                    style="transform-origin: top;font-family: 'Alegreya Sans SC', sans-serif;">Свет в комнатах</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card border-light border-1 d-flex justify-content-center p-4 mt-2"
+                     data-bss-hover-animate="bounce"
+                     style="background: -webkit-linear-gradient(90deg, #d7e4f2,#a7b0ec,#ad6dcb);background: linear-gradient(-45deg, #d7e4f2, #a7b0ec, #ad6dcb 86%);border-top-left-radius: 60px;border-top-right-radius: 60px;border-bottom-right-radius: 60px;border-bottom-left-radius: 60px;">
+                    <div class="card-body text-center">
+                        <div>
+                            <h2 class="fw-bold text-center"
+                                style="color: rgb(255,255,255);font-family: 'Alegreya Sans SC', sans-serif;"><span
+                                    style="font-weight: normal !important;">Спальня</span></h2>
+                        </div>
+                        <button class="btn btn-primary light" role="button"
+                                style="border-top-left-radius: 10px;border-top-right-radius: 10px;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;background: rgb(0,0,0);">
+                            Включить
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card border-light border-1 d-flex justify-content-center p-4 mt-2"
+                     data-bss-hover-animate="bounce"
+                     style="background: -webkit-linear-gradient(90deg, #d7e4f2,#a7b0ec,#ad6dcb);background: linear-gradient(-138deg, #d7e4f2, #a7b0ec, #ad6dcb 85%);border-top-left-radius: 60px;border-top-right-radius: 60px;border-bottom-right-radius: 60px;border-bottom-left-radius: 60px;">
+                    <div class="card-body text-center">
+                        <div>
+                            <h2 class="fw-bold text-center"
+                                style="color: rgb(255,255,255);font-family: 'Alegreya Sans SC', sans-serif;"><span
+                                    style="font-weight: normal !important;">Кухня</span></h2>
+                        </div>
+                        <button class="btn btn-primary light1" role="button"
+                                style="border-top-left-radius: 10px;border-top-right-radius: 10px;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;background: rgb(0,0,0);"
+                        >Включить
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mt-2">
+                <div class="card border-light border-1 d-flex justify-content-center p-4"
+                     data-bss-hover-animate="bounce"
+                     style="background: -webkit-linear-gradient(90deg, #d7e4f2,#a7b0ec,#ad6dcb);background: linear-gradient(-25deg, #d7e4f2, #a7b0ec, #ad6dcb 91%);border-top-left-radius: 60px;border-top-right-radius: 60px;border-bottom-right-radius: 60px;border-bottom-left-radius: 60px;">
+                    <div class="card-body text-center">
+                        <div>
+                            <h2 class="fw-bold text-center"
+                                style="color: rgb(255,255,255);font-family: 'Alegreya Sans SC', sans-serif;"><span
+                                    style="font-weight: normal !important;">Ванна</span></h2>
+                        </div>
+                        <button class="btn btn-primary light2" role="button"
+                                style="border-top-left-radius: 10px;border-top-right-radius: 10px;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;background: rgb(0,0,0);"
+                        >Включить
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mt-2" data-bss-hover-animate="bounce">
+                <div class="card border-light border-1 d-flex justify-content-center p-4"
+                     style="background: -webkit-linear-gradient(90deg, #d7e4f2,#a7b0ec,#ad6dcb);background: linear-gradient(2deg, #d7e4f2, #a7b0ec, #ad6dcb 86%);border-radius: 80px;border-top-left-radius: 60px;border-top-right-radius: 60px;border-bottom-right-radius: 60px;border-bottom-left-radius: 60px;">
+                    <div class="card-body text-center">
+                        <div>
+                            <h2 class="fw-bold text-center"
+                                style="color: rgb(255,255,255);font-family: 'Alegreya Sans SC', sans-serif;"><span
+                                    style="font-weight: normal !important;">Улица</span></h2>
+                        </div>
+                        <button class="btn btn-primary light3" role="button"
+                                style="border-top-left-radius: 10px;border-top-right-radius: 10px;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;background: rgb(0,0,0);"
+                        >Включить
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="container">
+    <h1 class="display-6 fw-bold text-center mb-4"
+        style="transform-origin: top;font-family: 'Alegreya Sans SC', sans-serif;">Хотите кофе?</h1>
+    <div class="card border-light border-1 d-flex justify-content-center p-4" data-bss-hover-animate="bounce"
+         style="background: -webkit-linear-gradient(90deg, #d7e4f2,#a7b0ec,#ad6dcb);background: linear-gradient(45deg, #d7e4f2, #a7b0ec, #ad6dcb);border-top-left-radius: 60px;border-top-right-radius: 60px;border-bottom-right-radius: 60px;border-bottom-left-radius: 60px;">
+        <div class="card-body text-center">
+            <div>
+                <h1 class="fw-bold" style="font-family: Raleway, sans-serif;"><span style="color: rgb(255, 255, 255);">Кофемашина</span>
+                </h1>
+            </div>
+            <button class="btn btn-primary text-center coffee" type="button"
+                    style="border-top-left-radius: 10px;border-top-right-radius: 10px;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;background: rgb(0,0,0);">
+                Заварить
+            </button>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row gy-4 row-cols-1 row-cols-md-2 flex-grow-1 mt-4" data-aos="fade-up" data-aos-duration="400">
+        <div class="col">
+            <div class="card border-light border-1 d-flex justify-content-center p-4"
+                 style="background: -webkit-linear-gradient(90deg, #d7e4f2,#a7b0ec,#ad6dcb);background: linear-gradient(-92deg, #d7e4f2, #a7b0ec, #ad6dcb 86%);border-top-left-radius: 60px;border-top-right-radius: 60px;border-bottom-right-radius: 60px;border-bottom-left-radius: 60px;">
+                <div class="card-body text-center">
+                    <div>
+                        <h1 class="fw-bold" style="font-family: 'Alegreya Sans SC', sans-serif;"><span
+                                style="color: rgb(255, 255, 255);">Робот</span></h1>
+                    </div>
+                    <p class="text-muted d-none d-xl-block card-text"
+                       style="font-family: 'Alegreya Sans SC', sans-serif;"><strong><span
+                            style="color: rgb(45, 45, 45);">сейчас находится в спальне</span></strong></p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card border-light border-1 shadow d-flex justify-content-center p-4"
+                 style="background: -webkit-linear-gradient(90deg, #d7e4f2,#a7b0ec,#ad6dcb);background: linear-gradient(-26deg, #d7e4f2, #a7b0ec, #ad6dcb 85%);border-top-left-radius: 60px;border-top-right-radius: 60px;border-bottom-right-radius: 60px;border-bottom-left-radius: 60px;">
+                <div class="card-body text-center">
+                    <div>
+                        <h1 class="fw-bold" style="font-family: 'Alegreya Sans SC', sans-serif;"><span
+                                style="color: rgb(255, 255, 255);">Камеры</span></h1>
+                        <p class="text-muted d-none d-xl-block"></p>
+                    </div>
+                    <p class="text-muted d-none d-xl-block card-text"
+                       style="font-family: 'Alegreya Sans SC', sans-serif;border-color: rgba(83,96,120,0.72);">
+                        <strong><span class="names"
+                                      style="color: rgb(45, 45, 45);">никого не обноруженно</span></strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container py-4 py-lg-5">
+        <hr>
+        <div class="text-muted d-flex justify-content-between align-items-center pt-3">
+            <p class="mb-0" style="font-family: 'Alegreya Sans SC', sans-serif;"><strong><span
+                    style="color: rgb(0, 0, 0);">HSH © 2023&nbsp;</span></strong></p>
+            <ul class="list-inline mb-0">
+                <li class="list-inline-item"></li>
+                <li class="list-inline-item"></li>
+                <li class="list-inline-item"></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="assets/js/bs-init.js"></script>
+<script src="assets/js/responsive-blog-card-slider-01-swiper-bundle.min.js"></script>
+<script src="assets/js/responsive-blog-card-slider-02-responsive-blog-card-slider.js"></script>
+<script src="assets/js/startup-modern.js"></script>
+<script src="assets/js/server.js"></script>
+</body>
+
+</html>

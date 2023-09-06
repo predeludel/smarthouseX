@@ -1,0 +1,156 @@
+2023-03-23 11:53:09,525 [INFO] camera:: Initializing camera class with 20 fps and video_source=0
+2023-03-23 11:53:10,188 [DEBUG] camera:: Starting thread
+2023-03-23 11:53:10,189 [DEBUG] camera:: Observation started
+2023-03-23 11:53:10,189 [INFO] camera:: Thread started
+2023-03-23 11:53:10,191 [DEBUG] __main__:: Starting server
+2023-03-23 11:53:26,655 [INFO] camera:: Initializing camera class with 20 fps and video_source=0
+2023-03-23 11:53:27,793 [DEBUG] camera:: Starting thread
+2023-03-23 11:53:27,794 [DEBUG] camera:: Observation started
+2023-03-23 11:53:27,794 [INFO] camera:: Thread started
+2023-03-23 11:53:27,797 [DEBUG] __main__:: Starting server
+2023-03-23 11:53:30,396 [DEBUG] __main__:: Requested stream page
+2023-03-23 11:53:30,448 [DEBUG] __main__:: Starting stream
+2023-03-23 12:00:00,347 [INFO] camera:: Initializing camera class with 20 fps and video_source=0
+2023-03-23 12:00:01,023 [DEBUG] camera:: Starting thread
+2023-03-23 12:00:01,023 [DEBUG] camera:: Observation started
+2023-03-23 12:00:01,023 [INFO] camera:: Thread started
+2023-03-23 12:00:01,026 [DEBUG] __main__:: Starting server
+2023-03-23 12:00:04,924 [DEBUG] __main__:: Requested stream page
+2023-03-23 12:00:05,335 [DEBUG] __main__:: Starting stream
+2023-03-23 12:21:19,665 [INFO] camera:: Initializing camera class with 20 fps and video_source=0
+2023-03-23 12:21:20,481 [DEBUG] camera:: Starting thread
+2023-03-23 12:21:20,481 [DEBUG] camera:: Observation started
+2023-03-23 12:21:20,481 [INFO] camera:: Thread started
+2023-03-23 12:21:20,567 [DEBUG] __main__:: Starting server
+2023-03-23 12:21:21,571 [INFO] camera:: Initializing camera class with 20 fps and video_source=0
+2023-03-23 12:21:22,173 [DEBUG] camera:: Starting thread
+2023-03-23 12:21:22,174 [DEBUG] camera:: Observation started
+2023-03-23 12:21:22,174 [INFO] camera:: Thread started
+2023-03-23 12:21:22,222 [DEBUG] __main__:: Starting server
+2023-03-23 12:24:48,284 [INFO] camera:: Initializing camera class with 20 fps and video_source=0
+2023-03-23 12:24:48,976 [DEBUG] camera:: Starting thread
+2023-03-23 12:24:48,976 [DEBUG] camera:: Observation started
+2023-03-23 12:24:48,976 [INFO] camera:: Thread started
+2023-03-23 12:24:49,025 [DEBUG] __main__:: Starting server
+2023-03-23 12:24:49,981 [INFO] camera:: Initializing camera class with 20 fps and video_source=0
+2023-03-23 12:24:50,580 [DEBUG] camera:: Starting thread
+2023-03-23 12:24:50,581 [DEBUG] camera:: Observation started
+2023-03-23 12:24:50,581 [INFO] camera:: Thread started
+2023-03-23 12:24:50,629 [DEBUG] __main__:: Starting server
+2023-03-23 12:25:25,340 [INFO] camera:: Initializing camera class with 20 fps and video_source=0
+2023-03-23 12:25:26,471 [DEBUG] camera:: Starting thread
+2023-03-23 12:25:26,471 [DEBUG] camera:: Observation started
+2023-03-23 12:25:26,471 [INFO] camera:: Thread started
+2023-03-23 12:25:26,519 [DEBUG] __main__:: Starting server
+2023-03-23 12:25:27,475 [INFO] camera:: Initializing camera class with 20 fps and video_source=0
+2023-03-23 12:25:28,070 [DEBUG] camera:: Starting thread
+2023-03-23 12:25:28,071 [DEBUG] camera:: Observation started
+2023-03-23 12:25:28,071 [INFO] camera:: Thread started
+2023-03-23 12:25:28,118 [DEBUG] __main__:: Starting server
+2023-03-23 12:26:28,707 [INFO] camera:: Initializing camera class with 20 fps and video_source=0
+2023-03-23 12:26:29,321 [DEBUG] camera:: Starting thread
+2023-03-23 12:26:29,322 [DEBUG] camera:: Observation started
+2023-03-23 12:26:29,322 [INFO] camera:: Thread started
+2023-03-23 12:26:30,419 [INFO] camera:: Initializing camera class with 20 fps and video_source=0
+2023-03-23 12:26:31,030 [DEBUG] camera:: Starting thread
+2023-03-23 12:26:31,031 [DEBUG] camera:: Observation started
+2023-03-23 12:26:31,031 [INFO] camera:: Thread started
+2023-03-23 12:26:57,764 [INFO] camera:: Initializing camera class with 20 fps and video_source=0
+2023-03-23 12:26:59,388 [INFO] camera:: Initializing camera class with 20 fps and video_source=0
+2023-03-23 12:27:14,605 [INFO] camera:: Initializing camera class with 20 fps and video_source=0
+2023-03-23 12:27:16,278 [INFO] camera:: Initializing camera class with 20 fps and video_source=0
+2023-03-23 12:32:18,024 [INFO] camera:: Initializing camera class with 20 fps and video_source=0
+2023-03-23 12:32:18,702 [DEBUG] __main__:: Starting server
+2023-03-23 12:32:19,739 [INFO] camera:: Initializing camera class with 20 fps and video_source=0
+2023-03-23 12:32:20,409 [DEBUG] __main__:: Starting server
+2023-03-23 12:33:07,831 [DEBUG] camera:: Starting thread
+2023-03-23 12:33:07,831 [DEBUG] camera:: Observation started
+2023-03-23 12:33:08,626 [INFO] camera:: Thread started
+2023-03-23 12:33:08,626 [DEBUG] __main__:: Requested stream page
+2023-03-23 12:33:09,036 [DEBUG] __main__:: Starting stream
+2023-03-23 12:34:26,657 [DEBUG] __main__:: Requested stream page
+2023-03-23 12:34:57,631 [INFO] camera:: Initializing camera class with 20 fps and video_source=0
+2023-03-23 12:34:58,289 [DEBUG] __main__:: Starting server
+2023-03-23 12:34:59,281 [INFO] camera:: Initializing camera class with 20 fps and video_source=0
+2023-03-23 12:34:59,928 [DEBUG] __main__:: Starting server
+2023-03-23 12:35:04,557 [DEBUG] camera:: Starting thread
+2023-03-23 12:35:04,557 [DEBUG] camera:: Observation started
+2023-03-23 12:35:05,019 [INFO] camera:: Thread started
+2023-03-23 12:35:05,019 [DEBUG] __main__:: Requested stream page
+2023-03-23 12:35:05,584 [DEBUG] __main__:: Starting stream
+2023-03-23 13:23:37,205 [INFO] camera:: Initializing camera class with 20 fps and video_source=0
+2023-03-23 13:23:39,250 [DEBUG] __main__:: Starting server
+2023-03-23 13:23:41,541 [INFO] camera:: Initializing camera class with 20 fps and video_source=0
+2023-03-23 13:23:42,489 [DEBUG] __main__:: Starting server
+2023-03-23 13:24:48,081 [DEBUG] camera:: Starting thread
+2023-03-23 13:24:48,081 [DEBUG] camera:: Observation started
+2023-03-23 13:24:48,634 [INFO] camera:: Thread started
+2023-03-23 13:24:48,635 [DEBUG] __main__:: Requested stream page
+2023-03-23 13:24:49,763 [DEBUG] __main__:: Starting stream
+2023-03-23 13:25:31,478 [INFO] camera:: Initializing camera class with 20 fps and video_source=0
+2023-03-23 13:25:32,560 [DEBUG] camera:: Stopping thread
+2023-03-23 13:25:32,744 [DEBUG] __main__:: Starting server
+2023-03-23 13:25:34,796 [INFO] camera:: Initializing camera class with 20 fps and video_source=0
+2023-03-23 13:25:35,608 [DEBUG] camera:: Stopping thread
+2023-03-23 13:25:35,683 [DEBUG] __main__:: Starting server
+2023-03-23 13:25:46,745 [DEBUG] camera:: Starting thread
+2023-03-23 13:25:46,746 [DEBUG] camera:: Observation started
+2023-03-23 13:25:47,225 [INFO] camera:: Thread started
+2023-03-23 13:25:47,225 [DEBUG] __main__:: Requested stream page
+2023-03-23 13:25:48,332 [DEBUG] __main__:: Starting stream
+2023-03-23 13:26:33,519 [INFO] camera:: Initializing camera class with 20 fps and video_source=0
+2023-03-23 13:26:34,571 [DEBUG] camera:: Stopping thread
+2023-03-23 13:26:34,650 [DEBUG] __main__:: Starting server
+2023-03-23 13:26:36,551 [INFO] camera:: Initializing camera class with 20 fps and video_source=0
+2023-03-23 13:26:37,544 [DEBUG] camera:: Stopping thread
+2023-03-23 13:26:37,635 [DEBUG] __main__:: Starting server
+2023-03-23 13:26:43,649 [DEBUG] camera:: Starting thread
+2023-03-23 13:26:43,650 [DEBUG] camera:: Observation started
+2023-03-23 13:26:44,095 [INFO] camera:: Thread started
+2023-03-23 13:26:44,096 [DEBUG] __main__:: Requested stream page
+2023-03-23 13:26:45,134 [DEBUG] __main__:: Starting stream
+2023-03-23 13:27:29,232 [INFO] camera:: Initializing camera class with 20 fps and video_source=0
+2023-03-23 13:27:30,436 [DEBUG] camera:: Stopping thread
+2023-03-23 13:27:30,581 [DEBUG] __main__:: Starting server
+2023-03-23 13:27:33,084 [INFO] camera:: Initializing camera class with 20 fps and video_source=0
+2023-03-23 13:27:34,239 [DEBUG] camera:: Stopping thread
+2023-03-23 13:27:34,312 [DEBUG] __main__:: Starting server
+2023-03-23 13:27:39,055 [DEBUG] camera:: Starting thread
+2023-03-23 13:27:39,056 [DEBUG] camera:: Observation started
+2023-03-23 13:27:39,489 [INFO] camera:: Thread started
+2023-03-23 13:27:39,490 [DEBUG] __main__:: Requested stream page
+2023-03-23 13:27:40,450 [DEBUG] __main__:: Starting stream
+2023-03-23 13:30:11,784 [INFO] camera:: Initializing camera class with 20 fps and video_source=0
+2023-03-23 13:30:12,794 [DEBUG] camera:: Stopping thread
+2023-03-23 13:30:12,881 [DEBUG] __main__:: Starting server
+2023-03-23 13:30:15,058 [INFO] camera:: Initializing camera class with 20 fps and video_source=0
+2023-03-23 13:30:15,915 [DEBUG] camera:: Stopping thread
+2023-03-23 13:30:15,983 [DEBUG] __main__:: Starting server
+2023-03-23 13:30:16,713 [DEBUG] camera:: Starting thread
+2023-03-23 13:30:16,713 [DEBUG] camera:: Observation started
+2023-03-23 13:30:17,152 [INFO] camera:: Thread started
+2023-03-23 13:30:17,153 [DEBUG] __main__:: Requested stream page
+2023-03-23 13:30:17,153 [DEBUG] camera:: Stopping thread
+2023-03-23 13:30:17,237 [INFO] camera:: Thread stopped successfully
+2023-03-23 13:30:17,985 [DEBUG] __main__:: Starting stream
+2023-03-23 13:31:08,525 [INFO] camera:: Initializing camera class with 20 fps and video_source=0
+2023-03-23 13:31:09,600 [DEBUG] camera:: Stopping thread
+2023-03-23 13:31:09,678 [DEBUG] __main__:: Starting server
+2023-03-23 13:31:11,768 [INFO] camera:: Initializing camera class with 20 fps and video_source=0
+2023-03-23 13:31:12,663 [DEBUG] camera:: Stopping thread
+2023-03-23 13:31:12,742 [DEBUG] __main__:: Starting server
+2023-03-23 13:31:27,445 [DEBUG] camera:: Starting thread
+2023-03-23 13:31:27,446 [DEBUG] camera:: Observation started
+2023-03-23 13:31:27,872 [INFO] camera:: Thread started
+2023-03-23 13:31:27,876 [DEBUG] __main__:: Starting stream
+2023-03-23 13:32:38,383 [INFO] camera:: Initializing camera class with 20 fps and video_source=0
+2023-03-23 13:32:39,682 [DEBUG] camera:: Stopping thread
+2023-03-23 13:32:39,753 [DEBUG] __main__:: Starting server
+2023-03-23 13:32:41,523 [INFO] camera:: Initializing camera class with 20 fps and video_source=0
+2023-03-23 13:32:42,573 [DEBUG] camera:: Stopping thread
+2023-03-23 13:32:42,676 [DEBUG] __main__:: Starting server
+2023-03-23 13:32:48,487 [DEBUG] __main__:: Requested stream page
+2023-03-23 13:32:49,367 [DEBUG] camera:: Starting thread
+2023-03-23 13:32:49,367 [DEBUG] camera:: Observation started
+2023-03-23 13:32:49,790 [INFO] camera:: Thread started
+2023-03-23 13:32:49,792 [DEBUG] __main__:: Starting stream
